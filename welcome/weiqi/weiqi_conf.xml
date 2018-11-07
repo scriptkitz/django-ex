@@ -1,5 +1,5 @@
 <weiqi>
-    <news Version="1"
+	<news Version="1"
              info="支付后自动解锁，点击多课购买打9折，客服电话(微信号)：15208257506  QQ:2314909000" 
              infoNew="支付后自动解锁，点击多课购买打9折，客服电话(微信号)：15208257506  QQ:2314909000" 
              nobuy="巧多《少儿国际象棋教学合集》~~~创新交互式国际象棋动画教学APP!"  
@@ -7,83 +7,104 @@
              appinfo="支付后自动解锁，点击多课购买打9折，客服电话(微信号)：15208257506  QQ:2314909000" 
              appinfoNew="支付后自动解锁，点击多课购买打9折，客服电话(微信号)：15208257506  QQ:2314909000" 
              appbuyall="◆客服电话：15208257506  微信号：15208257506  QQ：2314909000                                          ◆巧多产品:少儿围棋教学合集,少儿象棋教学合集,少儿国际象棋教学合集"            
-           ></news>
-    <channel>
-        <hwei Version="4" pay="yes"  info="华为平台"   buyinfoA="国际象棋："   icoNum="15"  weiqi="yes" weiqiUrl="http://a.vmall.com/app/C10228520"  xiangqiUrl="http://a.vmall.com/app/C10769417"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk">
-            <notice>
-                <infoNew> 支付后自动解锁，点击多课解锁打9折，客服电话(微信号)：15208257506  QQ:2314909000</infoNew>
-                <infoOld>支付后自动解锁，点击多课解锁打9折，客服电话(微信号)：15208257506  QQ:2314909000</infoOld>
-                <allBuy>◆客服电话：15208257506  微信号：15208257506  QQ：2314909000+++◆巧多产品:少儿围棋教学合集,少儿象棋教学合集,少儿国际象棋教学合集</allBuy>
-                <buyClose>巧多《少儿国际象棋教学合集》~~~~~创新交互式中国象棋动画教学APP！ </buyClose>
-            </notice>
-            <buyInfo >
-                <HuaWei open="yes">支付解锁</HuaWei>
-                <moreLesson LessonNum="1" sale="9" open="yes">购买多课</moreLesson>
-                <buyTs>购买后可以观看</buyTs>
-                <buyPrompt>巧多教学系列还有:少儿围棋教学合集,少儿象棋教学合集</buyPrompt >
-                <buyService>客服电话（微信号）：15208257506  QQ号：2314909000</buyService>
-                <buyError>支付功能暂时升级中，请选择其它支付</buyError >
-            </buyInfo>
-        </hwei>
-        <oppo Version="4" pay="yes"  info="oppo平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></oppo>
-        <qqop Version="4" pay="yes"  info="应用宝"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></qqop>
-        <mimi Version="4" pay="yes"  info="小米平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></mimi>
-        <m360 Version="4" pay="yes"  info="360商城"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></m360>
-        <baid Version="4" pay="yes"  info="百度商城"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></baid>
-        <alia Version="4" pay="yes"  info="阿里应用"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></alia>
-        <vivo Version="4" pay="yes"  info="vivo平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></vivo>
-        <pcon Version="4" pay="yes"  info="pconline"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></pcon>
-        <sams Version="4" pay="yes"  info="三星平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></sams>
-        <jinl Version="4" pay="yes"  info="金立平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></jinl>
-        <anzi Version="4" pay="yes"  info="安智市场"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></anzi>
-        <leno Version="4" pay="yes"  info="联想平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></leno>
-        <sogo Version="4" pay="yes"  info="搜狗助手"   buyinfoA="国际象棋："  icoNum="15"  weiqi="no" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></sogo>
-        <letv Version="4" pay="yes"  info="乐视平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="no"  weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></letv>
-        <meiz Version="4" pay="yes"  info="魅族商城"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></meiz>
-        <appl Version="4" pay="yes"  info="苹果商城"   buyinfoA="国际象棋："  icoNum="15"  prePack="yes" weiqiUrl="https://itunes.apple.com/cn/developer/成都迈瑞科科技有限公司/id493773239"  xiangqiUrl="https://itunes.apple.com/us/developer/ping-zheng/id1253772836"  chessUrl=""></appl>
-        <self Version="4" pay="yes"  info="软件互推"   buyinfoA="国际象棋："  icoNum="15"  weiqi="no" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></self>
-        <mweb Version="4" pay="yes"  info="自主下载"   buyinfoA="国际象棋："  icoNum="15"  weiqi="no" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></mweb>
-        <tved Version="4" pay="yes"  info="视频教育"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></tved>
-        <tvch Version="4" pay="yes"  info="视频儿童"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></tvch>
-    </channel>
-    <lessoninfo>认识棋盘棋子, 不可小觑的兵,认识车和马,认识象和后,王和棋子价值,将军和应将,胜负的判断,王车易位,棋局的记录,杀单王(一),杀单王(二),杀单王(三),基本战术(一),基本战术(二),基本战术(三),基本战术(四),兵的应用,局面分析,开发中,开发中,开发中,开发中</lessoninfo>
-    <info num="18" total="1" totalApple="10"  sale="9" >
-        <lesson id="01" money="12" code="12345" Versions="0" url="http://main.miracle-cn.com/chess/Lesson/lesson1.swf"  urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson1.swf"  buyinfoA="花12元购买后可以观看第一课：认识国际象棋" ></lesson>
-        <lesson id="02" money="12"  code="61897" Versions="2" url="http://main.miracle-cn.com/chess/Lesson/lesson2.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson2.swf"  buyinfoA="花12元购买后可以观看第二课，主要讲解兵的走法与吃子方法，吃过路兵的方法，兵的升变。" ></lesson>
-        <lesson id="03" money="12" code="69978" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson3.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson3.swf"  buyinfoA="花12元购买后可以观看第三课，主要讲解车的走法与吃子方法，马的走法与吃子方法。" ></lesson>
-        <lesson id="04" money="12" code="43329" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson4.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson4.swf" buyinfoA="花12元购买后可以观看第四课，主要讲解象的走法与吃子方法，后的走法与吃子方法。" ></lesson>
-        <lesson id="05" money="12" code="36742" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson5.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson5.swf"  buyinfoA="花12元购买后可以观看第五课，主要讲解王的走法与吃子方法，棋子的价值划分，棋子的分类。" ></lesson>
-        <lesson id="06" money="12" code="74897" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson6.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson6.swf"  buyinfoA="花12元购买后可以观看第六课，主要讲解应将的方法，将死的技巧。" ></lesson>
-        <lesson id="07" money="12" code="68143" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson7.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson7.swf"  buyinfoA="花12元购买后可以观看第七课，主要讲解胜负的判断方法，和棋的几种形式。" ></lesson>
-        <lesson id="08" money="12" code="73475" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson8.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson8.swf"  buyinfoA="花12元购买后可以观看第八课，主要讲解王车易位的操作方法，王车易位的条件。" ></lesson>
-        <lesson id="09" money="12" code="48198" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson9.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson9.swf"   buyinfoA="花12元购买后可以观看第九课，主要讲解国际象棋棋谱的记录方法。" ></lesson>
-        <lesson id="10" money="12" code="45616" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson10.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson10.swf" buyinfoA="花12元购买后可以观看第十课，双车杀单王的讲解。" ></lesson>
-        <lesson id="11" money="12" code="78921" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson11.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson11.swf" buyinfoA="花12元购买后可以观看第十一课，单后杀单王和单车杀单王的讲解。" ></lesson>
-        <lesson id="12" money="12" code="47884" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson12.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson12.swf"  buyinfoA="花12元购买后可以观看第十二课，双象杀单王、马象杀单王、双马对单王和单兵对单王的讲解。" ></lesson>
-        <lesson id="13" money="12" code="49593" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson13.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson13.swf"  buyinfoA="花12元购买后可以观看第十三课，牵制、拦截、封锁等基本战术讲解。"></lesson>
-        <lesson id="14" money="12" code="66365" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson14.swf"  urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson14.swf" buyinfoA="花12元购买后可以观看第十四课，击双、串击、闪击和闪将等基本战术讲解。" ></lesson>
-        <lesson id="15" money="12" code="51983" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson15.swf"  urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson15.swf" buyinfoA="花12元购买后可以观看第十五课，引离、引入、消除防御和过渡着等基本战术讲解。"></lesson>
-        <lesson id="16" money="12" code="64235" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson16.swf"  urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson16.swf" buyinfoA="花12元购买后可以观看第十六课，腾挪、双将、逼和等基本战术讲解。" ></lesson>
-        <lesson id="17" money="12" code="34532" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson17.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson17.swf"  buyinfoA="花12元购买后可以观看第十七课，兵链、联兵、叠兵、孤兵、通路兵等兵的应用。" ></lesson>
-        <lesson id="18" money="12" code="64775" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson18.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson18.swf"  buyinfoA="花12元购买后可以观看第十八课，国际象棋局面分析讲解。" ></lesson>
-        <lesson id="19" money="12" code="64235" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson19.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson19.swf"  buyinfoA="花12元购买后可以观看第十六课，双马饮泉、天地炮、闷宫、闷杀、双将杀法等残局杀法讲解。" ></lesson>
-        <lesson id="20" money="12" code="64235" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson20.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson20.swf"  buyinfoA="花12元购买后可以观看第十六课，双马饮泉、天地炮、闷宫、闷杀、双将杀法等残局杀法讲解。" ></lesson>
-        <lesson id="21" money="12" code="64235" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson21.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson21.swf"  buyinfoA="花12元购买后可以观看第十六课，双马饮泉、天地炮、闷宫、闷杀、双将杀法等残局杀法讲解。" ></lesson>
-        <lesson id="22" money="12" code="34532" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson22.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson22.swf"  buyinfoA="点击观看巧多公益动画" ></lesson>
-    </info>
-    <buy info="buyMessage">
-        <payinfo  info="巧多少儿教学还有少儿围棋教学，少儿象棋教学"   about="客服电话（微信号）：15208257506  QQ号：2314909000" abouta=""></payinfo>
-        <ts1 info="购买中"       >购买进行中，请稍等</ts1>
-        <ts2 info="购买出错"    >购买失败，请稍后重试</ts2>
-        <ts3 info="验证中     "   >后台正在验证中，请稍等</ts3>
-        <ts4 info="验证失败"     >验证失败，请稍后重试或者重新购买</ts4>
-        <ts5 info="交易没完成"  >上次交易没有完成，需要重启一下设备结束交易</ts5>
-        <info>购买后可以观看</info>
-        <allbuy appinfo="全部解锁">多课购买</allbuy>
-        <moreTime info="获取数据出错，如已经支付的用户请退出应用重新打开" >或联系客服电话（微信号）：15208257506  客服QQ：2314909000 </moreTime>
-        <icoName>正在开发中</icoName>
-        <urlinfo huiwei="PS：点击上面图标可进入相应的应用介绍界面"  app="PS：点击上面图标可进入相应的应用介绍界面" >PS：点击上面图标下载并安装对应应用</urlinfo>
-        <companyinfo>“巧多”儿童教学系列产品，是由成都迈瑞科科技有限公司开发的创新型儿童交互式教学应用产品，主要针对中国传统文化。教学作品还有：</companyinfo>
-    </buy>
-    <appleInfo  info="点击购买，支付成功后自动解锁课程，并与苹果账号绑定"   about="巧多少儿系列产品由成都迈瑞科科技有限公司开发" abouta="118,128,128,138,148,158"></appleInfo>
-</weiqi>
+           ></news>  
+<channel>
+<hwei Version="4" pay="yes"  info="华为平台"   buyinfoA="国际象棋："   icoNum="15"  weiqi="yes" weiqiUrl="http://a.vmall.com/app/C10228520"  xiangqiUrl="http://a.vmall.com/app/C10769417"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk">
+           <notice>
+               <infoNew> 支付后自动解锁，点击多课解锁打9折，客服电话(微信号)：15208257506  QQ:2314909000</infoNew>
+               <infoOld>支付后自动解锁，点击多课解锁打9折，客服电话(微信号)：15208257506  QQ:2314909000</infoOld>
+               <allBuy>◆客服电话：15208257506  微信号：15208257506  QQ：2314909000+++◆巧多产品:少儿围棋教学合集,少儿象棋教学合集,少儿国际象棋教学合集</allBuy>
+              <buyClose>巧多《少儿国际象棋教学合集》~~~~~创新交互式中国象棋动画教学APP！ </buyClose>
+           </notice>
+           <buyInfo >
+              <HuaWei open="yes">支付解锁</HuaWei>
+              <moreLesson LessonNum="1" sale="9" open="yes">购买多课</moreLesson>
+               <buyTs>购买后可以观看</buyTs>
+               <buyPrompt>巧多教学系列还有:少儿围棋教学合集,少儿象棋教学合集</buyPrompt >
+               <buyService>客服电话（微信号）：15208257506  QQ号：2314909000</buyService>    
+               <buyError>支付功能暂时升级中，请选择其它支付</buyError >     
+           </buyInfo>    
+ </hwei>
+
+ <oppo Version="4" pay="yes"  info="oppo平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></oppo>
+
+<qqop Version="4" pay="yes"  info="应用宝"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></qqop>
+
+<mimi Version="4" pay="yes"  info="小米平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></mimi>
+
+<m360 Version="4" pay="yes"  info="360商城"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></m360>
+
+<baid Version="4" pay="yes"  info="百度商城"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></baid>
+
+<alia Version="4" pay="yes"  info="阿里应用"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></alia>
+
+<vivo Version="4" pay="yes"  info="vivo平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></vivo>
+
+<pcon Version="4" pay="yes"  info="pconline"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></pcon>
+
+<sams Version="4" pay="yes"  info="三星平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></sams>
+
+<jinl Version="4" pay="yes"  info="金立平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></jinl>
+
+<anzi Version="4" pay="yes"  info="安智市场"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></anzi>
+
+<leno Version="4" pay="yes"  info="联想平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></leno>
+
+<sogo Version="4" pay="yes"  info="搜狗助手"   buyinfoA="国际象棋："  icoNum="15"  weiqi="no" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></sogo>
+
+<letv Version="4" pay="yes"  info="乐视平台"   buyinfoA="国际象棋："  icoNum="15"  weiqi="no"  weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk"  chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></letv>
+
+<meiz Version="4" pay="yes"  info="魅族商城"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"> </meiz>
+
+<appl Version="4" pay="yes"  info="苹果商城"   buyinfoA="国际象棋："  icoNum="15"  prePack="yes" weiqiUrl="https://itunes.apple.com/cn/developer/成都迈瑞科科技有限公司/id493773239"  xiangqiUrl="https://itunes.apple.com/us/developer/ping-zheng/id1253772836"  chessUrl=""></appl>
+
+<self Version="4" pay="yes"  info="软件互推"   buyinfoA="国际象棋："  icoNum="15"  weiqi="no" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></self>
+
+<mweb Version="4" pay="yes"  info="自主下载"   buyinfoA="国际象棋："  icoNum="15"  weiqi="no" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></mweb>
+
+<tved Version="4" pay="yes"  info="视频教育"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"></tved>
+
+<tvch Version="4" pay="yes"  info="视频儿童"   buyinfoA="国际象棋："  icoNum="15"  weiqi="yes" weiqiUrl="http://main.miracle-cn.com/qaoduo/少儿围棋教学合集.apk"  xiangqiUrl="http://main.miracle-cn.com/qaoduo/少儿象棋教学合集.apk" chessUrl="http://main.miracle-cn.com/qaoduo/少儿国际象棋教学合集.apk"> </tvch>
+
+</channel>
+         <lessoninfo>认识棋盘棋子, 不可小觑的兵,认识车和马,认识象和后,王和棋子价值,将军和应将,胜负的判断,王车易位,棋局的记录,杀单王(一),杀单王(二),杀单王(三),基本战术(一),基本战术(二),基本战术(三),基本战术(四),兵的应用,局面分析,开发中,开发中,开发中,开发中</lessoninfo>
+	<info num="18" total="1" totalApple="10"  sale="9" >
+		<lesson id="01" money="12" code="12345" Versions="0" url="http://main.miracle-cn.com/chess/Lesson/lesson1.swf"  urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson1.swf"  buyinfoA="花12元购买后可以观看第一课：认识国际象棋" > </lesson>
+		<lesson id="02" money="12"  code="61897" Versions="2" url="http://main.miracle-cn.com/chess/Lesson/lesson2.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson2.swf"  buyinfoA="花12元购买后可以观看第二课，主要讲解兵的走法与吃子方法，吃过路兵的方法，兵的升变。" > </lesson>
+		<lesson id="03" money="12" code="69978" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson3.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson3.swf"  buyinfoA="花12元购买后可以观看第三课，主要讲解车的走法与吃子方法，马的走法与吃子方法。" > </lesson>
+		<lesson id="04" money="12" code="43329" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson4.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson4.swf" buyinfoA="花12元购买后可以观看第四课，主要讲解象的走法与吃子方法，后的走法与吃子方法。" > </lesson>
+		<lesson id="05" money="12" code="36742" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson5.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson5.swf"  buyinfoA="花12元购买后可以观看第五课，主要讲解王的走法与吃子方法，棋子的价值划分，棋子的分类。" > </lesson>
+		<lesson id="06" money="12" code="74897" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson6.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson6.swf"  buyinfoA="花12元购买后可以观看第六课，主要讲解应将的方法，将死的技巧。" > </lesson>
+		<lesson id="07" money="12" code="68143" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson7.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson7.swf"  buyinfoA="花12元购买后可以观看第七课，主要讲解胜负的判断方法，和棋的几种形式。" > </lesson>
+		<lesson id="08" money="12" code="73475" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson8.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson8.swf"  buyinfoA="花12元购买后可以观看第八课，主要讲解王车易位的操作方法，王车易位的条件。" > </lesson>
+		<lesson id="09" money="12" code="48198" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson9.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson9.swf"   buyinfoA="花12元购买后可以观看第九课，主要讲解国际象棋棋谱的记录方法。" > </lesson>
+		<lesson id="10" money="12" code="45616" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson10.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson10.swf" buyinfoA="花12元购买后可以观看第十课，双车杀单王的讲解。" > </lesson>
+		<lesson id="11" money="12" code="78921" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson11.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson11.swf" buyinfoA="花12元购买后可以观看第十一课，单后杀单王和单车杀单王的讲解。" > </lesson>
+		<lesson id="12" money="12" code="47884" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson12.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson12.swf"  buyinfoA="花12元购买后可以观看第十二课，双象杀单王、马象杀单王、双马对单王和单兵对单王的讲解。" > </lesson>
+		<lesson id="13" money="12" code="49593" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson13.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson13.swf"  buyinfoA="花12元购买后可以观看第十三课，牵制、拦截、封锁等基本战术讲解。"> </lesson>
+		<lesson id="14" money="12" code="66365" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson14.swf"  urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson14.swf" buyinfoA="花12元购买后可以观看第十四课，击双、串击、闪击和闪将等基本战术讲解。" > </lesson>
+		<lesson id="15" money="12" code="51983" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson15.swf"  urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson15.swf" buyinfoA="花12元购买后可以观看第十五课，引离、引入、消除防御和过渡着等基本战术讲解。"> </lesson>
+		<lesson id="16" money="12" code="64235" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson16.swf"  urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson16.swf" buyinfoA="花12元购买后可以观看第十六课，腾挪、双将、逼和等基本战术讲解。" > </lesson>
+                <lesson id="17" money="12" code="34532" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson17.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson17.swf"  buyinfoA="花12元购买后可以观看第十七课，兵链、联兵、叠兵、孤兵、通路兵等兵的应用。" > </lesson>
+                <lesson id="18" money="12" code="64775" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson18.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson18.swf"  buyinfoA="花12元购买后可以观看第十八课，国际象棋局面分析讲解。" > </lesson>
+                <lesson id="19" money="12" code="64235" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson19.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson19.swf"  buyinfoA="花12元购买后可以观看第十六课，双马饮泉、天地炮、闷宫、闷杀、双将杀法等残局杀法讲解。" > </lesson>
+               <lesson id="20" money="12" code="64235" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson20.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson20.swf"  buyinfoA="花12元购买后可以观看第十六课，双马饮泉、天地炮、闷宫、闷杀、双将杀法等残局杀法讲解。" > </lesson>
+               <lesson id="21" money="12" code="64235" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson21.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson21.swf"  buyinfoA="花12元购买后可以观看第十六课，双马饮泉、天地炮、闷宫、闷杀、双将杀法等残局杀法讲解。" > </lesson>
+               <lesson id="22" money="12" code="34532" Versions="1" url="http://main.miracle-cn.com/chess/Lesson/lesson22.swf" urlHW="http://main.miracle-cn.com/chess/LessonHW/lesson22.swf"  buyinfoA="点击观看巧多公益动画" > </lesson>
+	</info>
+	<buy info="buyMessage">
+               <payinfo  info="巧多少儿教学还有少儿围棋教学，少儿象棋教学"   about="客服电话（微信号）：15208257506  QQ号：2314909000" abouta=""></payinfo>
+		<ts1 info="购买中"       >购买进行中，请稍等</ts1>
+		<ts2 info="购买出错"    >购买失败，请稍后重试</ts2>
+		<ts3 info="验证中     "   >后台正在验证中，请稍等</ts3>
+		<ts4 info="验证失败"     >验证失败，请稍后重试或者重新购买</ts4>
+                <ts5 info="交易没完成"  >上次交易没有完成，需要重启一下设备结束交易</ts5>
+		<info>购买后可以观看</info>
+		<allbuy appinfo="全部解锁">多课购买</allbuy>
+		<moreTime info="获取数据出错，如已经支付的用户请退出应用重新打开" >或联系客服电话（微信号）：15208257506  客服QQ：2314909000 </moreTime>
+		<icoName>正在开发中</icoName>
+                <urlinfo huiwei="PS：点击上面图标可进入相应的应用介绍界面"  app="PS：点击上面图标可进入相应的应用介绍界面" >PS：点击上面图标下载并安装对应应用</urlinfo>
+               <companyinfo>“巧多”儿童教学系列产品，是由成都迈瑞科科技有限公司开发的创新型儿童交互式教学应用产品，主要针对中国传统文化。教学作品还有：</companyinfo>
+	</buy>
+       <appleInfo  info="点击购买，支付成功后自动解锁课程，并与苹果账号绑定"   about="巧多少儿系列产品由成都迈瑞科科技有限公司开发" abouta="118,128,128,138,148,158"></appleInfo>
+</weiqi> 
