@@ -47,13 +47,21 @@ def _cmd_201(ba):
     device = ba.readInt()
     imei = ba.readUTF()
     lesson = ba.readByte()
-    print("-----")
-    print(type(lesson))
-    print(lesson)
+    print("---201---(%d)"%lesson)
+    
     file_path = os.path.join(module_dir, 'weiqi_conf.xml')
     tree = ET.parse(file_path)
     root = tree.getroot()
-    root.find('info')[lesson-1].get('code')
+    code = root.find('info')[lesson-1].get('code')
+
+    newba = ByteArray()
+    newba.writeShort(201)
+
+    newba.writeByte(1)
+    newba.writeInt(DEVICE_ID)
+    newba.writeUTF(code)
+
+    return newba.bytes
 
 def weiqicmd(request):
     body = request.body
