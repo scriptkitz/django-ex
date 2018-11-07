@@ -41,7 +41,7 @@ def _cmd_201(ba):
 def weiqicmd(request):
     body = request.body
     print(body)
-    ba = ByteArray(_bytes)
+    ba = ByteArray(body)
     cmd = ba.readShort()
     data = ""
     if cmd == 10:
