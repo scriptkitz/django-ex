@@ -15,7 +15,7 @@ def _cmd10(_bytes):
     newba = ByteArray()
     newba.writeShort(10)
     if name == "配置信息":
-        fs = open("weiqi_conf.xml",'rb')
+        fs = open("./weiqi_conf.xml",'rb')
         data = fs.read()
         fs.close()
         newba.writeShort(len(data))
