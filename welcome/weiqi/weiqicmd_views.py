@@ -10,7 +10,7 @@ from .ByteArray import ByteArray
 
 
 module_dir = os.path.dirname(__file__)  # get current directory
-DEVICE_ID = 0x123456
+DEVICE_ID = 100
 # Create your views here.
 
 def _cmd_10(ba):
@@ -55,16 +55,26 @@ def _cmd_201(ba):
     lesson = ba.readByte()
     print("---201---(%d)"%lesson)
     
-    file_path = os.path.join(module_dir, 'weiqi_conf.xml')
-    tree = ET.parse(file_path)
-    root = tree.getroot()
-    code = root.find('info')[lesson-1].get('code')
+    #file_path = os.path.join(module_dir, 'weiqi_conf.xml')
+    #tree = ET.parse(file_path)
+    #root = tree.getroot()
+    #code = root.find('info')[lesson-1].get('code')
 
     newba = ByteArray()
     newba.writeShort(201)
 
     newba.writeByte(1)
     newba.writeInt(DEVICE_ID)
+    
+    t1 = 1
+    t2 = 1
+    t3 = DEVICE_ID*t2 - t1*lesson
+    
+    v1 = t1 << 3
+    v2 = t2 << 2
+    v3 = t3 << 1
+    code = "%d,%d,%d"%(v1,v2,v3)
+    
     newba.writeUTF(code)
 
     return newba.bytes
