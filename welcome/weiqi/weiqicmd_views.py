@@ -26,11 +26,9 @@ def _cmd10(_bytes):
 
 def weiqicmd(request):
     body = request.body
-    print("body:%s"%body)
-    cmd = struct.unpack(">h",body[:4])[0]
-    content = body[4:]
+    cmd = struct.unpack(">h",body[:2])[0]
+    content = body[2:]
     data = ""
-    print("cmd:%d"%cmd)
     if cmd == 10:
         data = _cmd10(content)
     resp = HttpResponse()
