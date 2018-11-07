@@ -15,7 +15,9 @@ def _cmd10(_bytes):
     newba = ByteArray()
     newba.writeShort(10)
     if name == "配置信息":
-        fs = open("./weiqi_conf.xml",'rb')
+        module_dir = os.path.dirname(__file__)  # get current directory
+        file_path = os.path.join(module_dir, 'weiqi_conf.xml')
+        fs = open(file_path,'rb')
         data = fs.read()
         fs.close()
         newba.writeShort(len(data))
