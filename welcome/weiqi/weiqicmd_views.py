@@ -20,7 +20,6 @@ def _cmd10(_bytes):
         fs = open(file_path,'rb')
         data = fs.read()
         fs.close()
-        newba.writeShort(len(data))
         newba.writeUTF(data)
         
     return newba.bytes

@@ -57,7 +57,6 @@ class ByteArray:
         if type(value) == str:
             value = value.encode("utf-8")
         pass
-        value = str(value)
         size = len(value)
         this.writeShort(size)
         this.write(value)
@@ -67,7 +66,7 @@ class ByteArray:
         if type(value) == str:
             value = value.encode("utf-8")
         pass
-        for data in str(pack('!b', 0)) * int(size):
+        for data in pack('!b', 0) * int(size):
             if len(value) < int(size):
                 value = value + pack('!b', 0)
         this.write(value)
