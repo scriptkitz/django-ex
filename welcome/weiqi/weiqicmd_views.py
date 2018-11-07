@@ -43,7 +43,7 @@ def _cmd_100(ba):
     newba.writeShort(100)
 
     newba.writeInt(DEVICE_ID)
-    newba.writeInt(111)
+    newba.writeInt(65535)
     newba.writeUTF("")
 
     return newba.bytes
