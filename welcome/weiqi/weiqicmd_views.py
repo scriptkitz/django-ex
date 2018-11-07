@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.conf import settings
 from django.http import HttpResponse
 
-from ByteArray import ByteArray
+from .ByteArray import ByteArray
 
 # Create your views here.
 
