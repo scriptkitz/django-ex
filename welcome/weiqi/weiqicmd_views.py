@@ -24,6 +24,12 @@ def _cmd_10(ba):
         data = fs.read()
         fs.close()
         newba.writeUTF(data)
+    elif name == "self":
+        file_path = os.path.join(module_dir, '2.txt')
+        fs = open(file_path,'rb')
+        data = fs.read()
+        fs.close()
+        newba.writeUTF(data)
         
     return newba.bytes
 def _cmd_100(ba):

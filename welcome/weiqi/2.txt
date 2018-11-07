@@ -1,0 +1,27 @@
+<self info="软件互推">
+<notice>
+      <infoNew> 支付后自动解锁，点击多课购买打9折，客服电话(微信号)：15208257506  QQ:2314909000</infoNew>
+      <infoOld>支付后自动解锁，点击多课购买打9折，客服电话(微信号)：15208257506  QQ:2314909000</infoOld>
+       <allBuy>◆客服电话：15208257506  微信号：15208257506  QQ：2314909000+++◆巧多产品:少儿围棋教学合集,少儿象棋教学合集,少儿国际象棋教学合集</allBuy>
+       <buyClose>巧多《少儿国际象棋教学合集》创新交互式国际象棋动画教学APP！ </buyClose>
+       <reply open="yes" half="no" url="">LiSir：~~很好讲得很仔细，不懂棋的良师+++木又多一寸：~~孩子之前不会，现在能赢我了+++0086180****1：~~课程很好，练习多点就完美了+++Angeltaro：~~很不错！动画讲解清晰易懂+++0086158****3：~~非常好，简单，直观，易懂，赞+++开笔西：~~教学语言适合小朋友接受和理解+++傲慢的刺猬：~~赞！成功引起了我们父子俩的学习兴趣+++huafans0117：~~孩子4岁多点，很喜欢这个课程，不贵+++小皮丫麻麻：~~孩子好喜欢，付点费也值，希望习题多点+++May：~~专门核对了一些编外知识点，可以看出做得很用心+++Alysa1111：~~同学推荐的，确实不错，娃娃很爱看+++倾心于你：~~好东西，完全吸引了孩子的注意力+++梅西梅西我爱你：~~很实用，学习了10课，每天要跟我对战+++Rayel：~~我跟女儿都喜欢，很好+++青龙偃月刀：~~讲的不错，没有广告打扰，花点钱值得+++0086132****5  ：~~不错，小孩很容易就看懂了</reply>
+ </notice>
+<buyInfo >
+       <WeiXin open="yes" type="2" code="205c23a7a6e9ad728b5fca56f7d93f83" name="com.miracle.weqi.pack">微信支付</WeiXin>
+       <Alipay  open="yes">支付宝支付</Alipay>
+       <WebPay open="yes">银行卡支付</WebPay>
+       <moreLesson LessonNum="1" sale="9" open="yes">多课购买</moreLesson>
+       <tuanLesson LessonNum="1" sale="8"  open="yes">团购解锁</tuanLesson>
+       <manyLesson LessonNum="1" sale="8" open="yes">众筹解锁</manyLesson >
+       <buyTs>购买后可以观看</buyTs>
+       <buyPrompt>巧多教学系列还有:少儿围棋教学合集,少儿象棋教学合集</buyPrompt >
+       <buyService>客服电话（微信号）：15208257506  QQ号：2314909000</buyService>    
+       <buyError>支付功能暂时升级中，请选择其它支付</buyError >     
+</buyInfo>
+<update open="no" Version="2,3" apkName ="air.com.miracle.chess">发现新的版本+++1.优化支付功能+++2.修改界面</update>
+<apkAD open="yes">
+       <show type="0">巧多学堂</show>
+       <clickTs info="">ps:点击对应的图标，可自动安装对应的软件</clickTs>
+</apkAD>
+<question open="no">内容有问题，根本学不懂+++孩子不喜欢，根本不想看+++操作太不方便，用着难受+++想学！但是要付费+++其他说不清的复杂原因</question>
+</self>
