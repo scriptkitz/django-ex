@@ -10,6 +10,7 @@ from .ByteArray import ByteArray
 
 
 module_dir = os.path.dirname(__file__)  # get current directory
+DEVICE_ID = 0x123456
 # Create your views here.
 
 def _cmd_10(ba):
@@ -25,6 +26,22 @@ def _cmd_10(ba):
         newba.writeUTF(data)
         
     return newba.bytes
+def _cmd_100(ba):
+    device = ba.readInt()
+    imei = ba.readUTF()
+    channel = ba.readUTF()
+    version = ba.readUTF()
+    print("---100---(%d)(%s)(%s)(%s)"%(device, imei, channel, version))
+    
+    newba = ByteArray()
+    newba.writeShort(100)
+
+    newba.writeInt(DEVICE_ID)
+    newba.writeInt(0)
+    newba.writeUTF("")
+
+    return newba.bytes
+
 
 def _cmd_201(ba):
     device = ba.readInt()
@@ -48,6 +65,8 @@ def weiqicmd(request):
         data = _cmd_10(ba)
     elif cmd == 201:
         data = _cmd_201(ba)
+    elif cmd == 100:
+        data = _cmd_100(ba)
     resp = HttpResponse()
     resp.write(data)
     return resp
