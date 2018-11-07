@@ -5,56 +5,56 @@ class ByteArray:
         this.bytes = bytes
 
     def writeByte(this, value):
-        if type(value) == unicode:
+        if type(value) == str:
             value = value.encode("utf-8")
         pass
         this.bytes += pack('!b', int(value))
         return this
 
     def writeUnsignedByte(this, value):
-        if type(value) == unicode:
+        if type(value) == str:
             value = value.encode("utf-8")
         pass
         this.bytes += pack('!B', int(value))
         return this
 
     def writeShort(this, value):
-        if type(value) == unicode:
+        if type(value) == str:
             value = value.encode("utf-8")
         pass
         this.bytes += pack('!h', int(value))
         return this
 
     def writeUnsignedShort(this, value):
-        if type(value) == unicode:
+        if type(value) == str:
             value = value.encode("utf-8")
         pass
         this.bytes += pack('!H', int(value))
         return this
     
     def writeInt(this, value):
-        if type(value) == unicode:
+        if type(value) == str:
             value = value.encode("utf-8")
         pass
         this.bytes += pack('!i', int(value))
         return this
 
     def writeUnsignedInt(this, value):
-        if type(value) == unicode:
+        if type(value) == str:
             value = value.encode("utf-8")
         pass
         this.bytes += pack('!I', int(value))
         return this
 
     def writeBoolean(this, value):
-        if type(value) == unicode:
+        if type(value) == str:
             value = value.encode("utf-8")
         pass
         this.bytes += pack('!?', int(value))
         return this
 
     def writeUTF(this, value):
-        if type(value) == unicode:
+        if type(value) == str:
             value = value.encode("utf-8")
         pass
         value = str(value)
@@ -64,7 +64,7 @@ class ByteArray:
         return this
 
     def writeUTFBytes(this, value, size):
-        if type(value) == unicode:
+        if type(value) == str:
             value = value.encode("utf-8")
         pass
         for data in str(pack('!b', 0)) * int(size):

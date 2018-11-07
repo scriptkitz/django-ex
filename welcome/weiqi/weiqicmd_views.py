@@ -11,7 +11,7 @@ from .ByteArray import ByteArray
 def _cmd10(_bytes):
     ba = ByteArray(_bytes)
     name = ba.readUTF()
-
+    print(name)
     newba = ByteArray()
     newba.writeShort(10)
     if name == "配置信息":
@@ -26,6 +26,7 @@ def _cmd10(_bytes):
 
 def weiqicmd(request):
     body = request.body
+    print(body)
     cmd = struct.unpack(">h",body[:2])[0]
     content = body[2:]
     data = ""
