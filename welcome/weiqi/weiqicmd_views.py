@@ -30,6 +30,7 @@ def weiqicmd(request):
     cmd = struct.unpack(">h",body[:4])[0]
     content = body[4:]
     data = ""
+    print("cmd:%d"%cmd)
     if cmd == 10:
         data = _cmd10(content)
     resp = HttpResponse()
