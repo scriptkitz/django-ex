@@ -1,7 +1,7 @@
 from struct import *
 
 class ByteArray:
-    def __init__(this, bytes=""):
+    def __init__(this, bytes=b""):
         this.bytes = bytes
 
     def writeByte(this, value):
