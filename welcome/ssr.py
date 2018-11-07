@@ -1,7 +1,7 @@
 
 import re
 import ssl
-import httplib
+import http.client as httplib
 from django.http import StreamingHttpResponse
 
 context = ssl._create_unverified_context()
