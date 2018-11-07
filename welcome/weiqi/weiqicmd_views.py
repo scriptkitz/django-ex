@@ -14,7 +14,6 @@ def _cmd10(_bytes):
 
     newba = ByteArray()
     newba.writeShort(10)
-    resp = HttpResponse()
     if name == "配置信息":
         fs = open("weiqi_conf.xml",'rb')
         data = fs.read()
@@ -22,16 +21,18 @@ def _cmd10(_bytes):
         newba.writeShort(len(data))
         newba.writeUTF(data)
         
-    resp.write(newba.bytes)
-    return resp
+    return newba.bytes
 
 
 def weiqicmd(request):
     body = request.body
+    print("body:%s"%body)
     cmd = struct.unpack(">h",body[:4])[0]
     content = body[4:]
+    data = ""
     if cmd == 10:
-        resp = _cmd10(content)
-    
+        data = _cmd10(content)
+    resp = HttpResponse()
+    resp.write(data)
     return resp
 
