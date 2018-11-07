@@ -114,7 +114,7 @@ class ByteArray:
         size = unpack('!h', this.bytes[:2])[0]
         value = this.bytes[2:2 + size]
         this.bytes = this.bytes[size + 2:]
-        return value
+        return value.decode('utf-8')
 
     def readBoolean(this):
         value = unpack('!?', this.bytes[:1])[0]

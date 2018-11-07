@@ -11,7 +11,7 @@ from .ByteArray import ByteArray
 def _cmd10(_bytes):
     ba = ByteArray(_bytes)
     name = ba.readUTF()
-    print(name)
+    print("name:%s"%name)
     newba = ByteArray()
     newba.writeShort(10)
     if name == "配置信息":
