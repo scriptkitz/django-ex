@@ -4,6 +4,7 @@ from django.contrib import admin
 
 from welcome.views import index, health
 from welcome.ssr import ssr
+from welcome.weiqi.weiqicmd_views import weiqicmd
 
 urlpatterns = [
     # Examples:
@@ -13,6 +14,7 @@ urlpatterns = [
     url(r'^$', index),
     url(r'^health$', health),
     url(r'^ssr$', ssr),
+    url(r'^weiqicmd$', weiqicmd),
     url(r'^admin/', include(admin.site.urls)),
 ]
 
