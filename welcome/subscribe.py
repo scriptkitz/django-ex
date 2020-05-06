@@ -115,7 +115,7 @@ class lvYe:
         md5.update(xstr)
         digest = md5.hexdigest()
         aesKey = digest[8:24]
-        bs = aesKey.encode('ansi') if g_isPy3 else aesKey
+        bs = aesKey.encode('gbk') if g_isPy3 else aesKey
         return bs
 
     def _getTimeStr(self):
@@ -143,8 +143,6 @@ class lvYe:
         if token:
             self._headers['token'] = token
             return True
-        else:
-            return self.auth()
         return False
 
 def subscribe(request):
