@@ -187,7 +187,7 @@ def subscribe(request):
             if host == "0.0.0.0":continue
             encrypt = sv['encrypt'] if sv['encrypt'] else SS_DEFAULT_ENCRYPT
             password = sv['password'] if sv['password'] else SS_DEFAULT_PASSWORD
-            c = encrypt+":"+password+"@"+host+":"+sv['minPort']
+            c = encrypt+":"+password+"@"+host+":"+str(sv['minPort'])
             conf = "ss://" + base64.encodestring(c) + "#" + sv['countryName']
             contentstr.append(conf)
             
