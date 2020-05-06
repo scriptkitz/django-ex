@@ -191,7 +191,7 @@ def subscribe(request):
             if host == "0.0.0.0":continue
             contentstr.append( ''.join((
                 host,
-                sv['minPort'],
+                str(sv['minPort']),
                 password,
                 encrypt,
                 'lvye_'+ strvip + sv['countryName'] + '%d'%i))
