@@ -188,10 +188,10 @@ def subscribe(request):
             encrypt = sv['encrypt'] if sv['encrypt'] else SS_DEFAULT_ENCRYPT
             password = sv['password'] if sv['password'] else SS_DEFAULT_PASSWORD
             c = encrypt+":"+password+"@"+host+":"+str(sv['minPort'])
-            conf = "ss://" + base64.urlsafe_b64encode(c.encode('gbk')).decode('gbk') + "#" + sv['countryName']
+            conf = "ss://" + base64.standard_b64encode(c.encode('gbk')).decode('gbk') + "#" + sv['countryName']
             contentstr.append(conf)
             
-        return HttpResponse(base64.urlsafe_b64encode('\n'.join(contentstr).encode('gbk')).decode('gbk'))
+        return HttpResponse(base64.standard_b64encode('\n'.join(contentstr).encode('gbk')).decode('gbk'))
     #return StreamingHttpResponse(go())
 
 
