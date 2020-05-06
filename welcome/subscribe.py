@@ -12,9 +12,18 @@ import base64
 import hashlib
 import time
 import json
-from Crypto.Cipher import AES
 
-context = ssl._create_unverified_context()
+try:
+    from Crypto.Cipher import AES
+    AES_BS = AES.block_size
+    AES_pad =lambda s: s +(AES_BS - len(s)% AES_BS)* chr(AES_BS - len(s)% AES_BS)
+    if g_isPy3:
+        AES_unpad =lambda s : s[0:-s[-1]]
+    else:
+        AES_unpad =lambda s : s[0:-ord(s[-1])]
+    needpycryptodome = False
+except:
+    needpycryptodome = True
 
 #PyVersion
 g_isPy3 = sys.version_info.major == 3
@@ -24,12 +33,6 @@ if g_isPy3:
 else:
     import httplib
 
-AES_BS = AES.block_size
-AES_pad =lambda s: s +(AES_BS - len(s)% AES_BS)* chr(AES_BS - len(s)% AES_BS)
-if g_isPy3:
-    AES_unpad =lambda s : s[0:-s[-1]]
-else:
-    AES_unpad =lambda s : s[0:-ord(s[-1])]
 g_BuyVIP = True
 DEVICE_ID = "202abd5713621f79"
 
@@ -37,6 +40,8 @@ SS_DEFAULT_ENCRYPT = "rc4-md5"
 SS_DEFAULT_PASSWORD= "QAZXSW12345PLM987"
 
 TOKEN_FILE_NAME = "lvye_%s_token.txt"%DEVICE_ID
+
+context = ssl._create_unverified_context()
 
 class lvYe:
     def __init__(self):
@@ -144,6 +149,10 @@ class lvYe:
         return False
 
 def subscribe(request):
+    if needpycryptodome:
+        return HttpResponse("need oc rsh, install pycryptodome!")
+
+
     o = lvYe()
     if 'code' in request.GET:
         if not o.auth(request.GET.get('code')):
