@@ -186,10 +186,11 @@ def subscribe(request):
         for sv in servers:
             host = sv['host']
             if host == "0.0.0.0":continue
+            strvip = "vip_" if sv['type'] == 0 else ""
             encrypt = sv['encrypt'] if sv['encrypt'] else SS_DEFAULT_ENCRYPT
             password = sv['password'] if sv['password'] else SS_DEFAULT_PASSWORD
             c = encrypt+":"+password+"@"+host+":"+str(sv['minPort'])
-            conf = "ss://" + base64.standard_b64encode(c.encode('gbk')).decode('gbk') + "#" + urllib.parse.quote(sv['countryName'])
+            conf = "ss://" + base64.standard_b64encode(c.encode('gbk')).decode('gbk') + "#" + urllib.parse.quote(strvip+sv['countryName'])
             contentstr.append(conf)
             
         return HttpResponse(base64.standard_b64encode('\n'.join(contentstr).encode('gbk')).decode('gbk'))
