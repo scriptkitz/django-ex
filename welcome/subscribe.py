@@ -15,6 +15,10 @@ import json
 
 from Crypto.Cipher import AES
 
+
+#PyVersion
+g_isPy3 = sys.version_info.major == 3
+
 AES_BS = AES.block_size
 AES_pad =lambda s: s +(AES_BS - len(s)% AES_BS)* chr(AES_BS - len(s)% AES_BS)
 if g_isPy3:
@@ -22,8 +26,6 @@ if g_isPy3:
 else:
     AES_unpad =lambda s : s[0:-ord(s[-1])]
 
-#PyVersion
-g_isPy3 = sys.version_info.major == 3
 
 if g_isPy3:
     import http.client as httplib
