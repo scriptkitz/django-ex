@@ -13,17 +13,14 @@ import hashlib
 import time
 import json
 
-try:
-    from Crypto.Cipher import AES
-    AES_BS = AES.block_size
-    AES_pad =lambda s: s +(AES_BS - len(s)% AES_BS)* chr(AES_BS - len(s)% AES_BS)
-    if g_isPy3:
-        AES_unpad =lambda s : s[0:-s[-1]]
-    else:
-        AES_unpad =lambda s : s[0:-ord(s[-1])]
-    needpycryptodome = False
-except:
-    needpycryptodome = True
+from Crypto.Cipher import AES
+
+AES_BS = AES.block_size
+AES_pad =lambda s: s +(AES_BS - len(s)% AES_BS)* chr(AES_BS - len(s)% AES_BS)
+if g_isPy3:
+    AES_unpad =lambda s : s[0:-s[-1]]
+else:
+    AES_unpad =lambda s : s[0:-ord(s[-1])]
 
 #PyVersion
 g_isPy3 = sys.version_info.major == 3
@@ -149,10 +146,6 @@ class lvYe:
         return False
 
 def subscribe(request):
-    if needpycryptodome:
-        return HttpResponse("need requirements.txt add pycryptodome==3.9.7!")
-
-
     o = lvYe()
     if 'code' in request.GET:
         if not o.auth(request.GET.get('code')):
