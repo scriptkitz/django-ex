@@ -1,7 +1,8 @@
 #-*- coding=utf-8 -*-
 import re
 import ssl
-from django.http import StreamingHttpResponse, HttpResponse, render
+from django.shortcuts import render
+from django.http import StreamingHttpResponse, HttpResponse
 
 import os
 import sys
