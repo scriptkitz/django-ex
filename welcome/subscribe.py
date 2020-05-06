@@ -4,6 +4,7 @@ import ssl
 from django.shortcuts import render
 from django.http import StreamingHttpResponse, HttpResponse
 
+import uuid
 import os
 import sys
 import os.path
@@ -182,21 +183,15 @@ def subscribe(request):
             servers.extend(u['vipServerInfos'])
         contentstr = []
         for sv in servers:
-            encrypt = sv['encrypt'] if sv['encrypt'] else SS_DEFAULT_ENCRYPT
-            password = sv['password'] if sv['password'] else SS_DEFAULT_PASSWORD
-            strvip = "vip_" if sv['type'] == 0 else ""
-            countryName = sv['countryName'].encode('gbk')
-            b64mark = base64.encodebytes(countryName) if g_isPy3 else base64.encodestring(countryName)
             host = sv['host']
             if host == "0.0.0.0":continue
-            contentstr.append( ''.join((
-                host,
-                str(sv['minPort']),
-                password,
-                encrypt,
-                'lvye_'+ strvip + sv['countryName'] + '%d'%i))
-            )
-        return HttpResponse(''.join(contentstr))
+            encrypt = sv['encrypt'] if sv['encrypt'] else SS_DEFAULT_ENCRYPT
+            password = sv['password'] if sv['password'] else SS_DEFAULT_PASSWORD
+            c = encrypt+":"+password+"@"+host+":"+sv['minPort']
+            conf = "ss://" + base64.encodestring(c) + "#" + sv['countryName']
+            contentstr.append(conf)
+            
+        return HttpResponse('\n'.join(contentstr))
     #return StreamingHttpResponse(go())
 
 
