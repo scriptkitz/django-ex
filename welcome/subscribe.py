@@ -60,7 +60,7 @@ class lvYe:
         data = self._send("/auth/v1/code")
         b64img = json.loads(data)['data']
         img = base64.decodebytes(b64img.encode('gbk')) if g_isPy3 else base64.decodestring(b64img)
-        fs = open('code.png','wb')
+        fs = open('welcome/static/code.png','wb')
         fs.write(img)
         fs.close()
 
@@ -150,11 +150,11 @@ def subscribe(request):
     if 'code' in request.GET:
         if not o.auth(request.GET.get('code')):
             o.getpng()
-            return render(request, 'subscribe/auth.html', {'imgsrc': 'code.png'})
+            return render(request, 'subscribe/auth.html', {'imgsrc': 'static/code.png'})
 
     if not o.checklogin():
         o.getpng()
-        return render(request, 'subscribe/auth.html', {'imgsrc': 'code.png'})
+        return render(request, 'subscribe/auth.html', {'imgsrc': 'static/code.png'})
     else:
         u = o._obj
         #广告
