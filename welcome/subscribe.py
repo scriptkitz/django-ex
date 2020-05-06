@@ -150,7 +150,7 @@ class lvYe:
 
 def subscribe(request):
     if needpycryptodome:
-        return HttpResponse("need oc rsh, install pycryptodome!")
+        return HttpResponse("need requirements.txt add pycryptodome==3.9.7!")
 
 
     o = lvYe()
