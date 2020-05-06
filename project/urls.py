@@ -4,7 +4,7 @@ from django.contrib import admin
 
 from welcome.views import index, health
 from welcome.ssr import ssr
-from welcome.subscribe import subscribe
+#from welcome.subscribe import subscribe
 from welcome.weiqi.weiqicmd_views import weiqicmd
 
 urlpatterns = [
@@ -15,7 +15,7 @@ urlpatterns = [
     url(r'^$', index),
     url(r'^health$', health),
     url(r'^ssr$', ssr),
-    url(r'^subscribe$', subscribe),
+    #url(r'^subscribe$', subscribe),
     url(r'^weiqicmd$', weiqicmd),
     url(r'^admin/', include(admin.site.urls)),
 ]
