@@ -16,6 +16,7 @@ import json
 import urllib.parse
 
 from Crypto.Cipher import AES
+from wuma import wumaPhp
 
 
 #PyVersion
@@ -198,3 +199,16 @@ def subscribe(request):
 
 
 
+def subscribe2(request):
+    o=wumaPhp()
+    jo = o.hi()
+
+    contentstr = []
+    for gp in jo['d']['gp']:
+        gplist = gp['list']
+        for sv in gplist:
+            sid = "wuma_%s_"%gp['name'][-2:]
+            c = sv['md']+":"+sv['pd']+"@"+sv['ip']+":"+sv['pt']
+            conf = "ss://" + base64.standard_b64encode(c.encode('gbk')).decode('gbk') + "#" + urllib.parse.quote(sid+sv['lb'])
+            contentstr.append(conf)
+    return HttpResponse(base64.standard_b64encode('\n'.join(contentstr).encode('gbk')).decode('gbk'))
