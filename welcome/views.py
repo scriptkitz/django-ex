@@ -11,7 +11,7 @@ from .models import PageView
 def index(request):
     hostname = os.getenv('HOSTNAME', 'unknown')
     PageView.objects.create(hostname=hostname)
-
+    return HttpResponse("憨批浣儿")
     return render(request, 'welcome/index.html', {
         'hostname': hostname,
         'database': database.info(),

@@ -46,7 +46,7 @@ context = ssl._create_unverified_context()
 
 class lvYe:
     def __init__(self):
-        self._conn = httplib.HTTPConnection("nacl.cc",80)#"95.163.196.113",80)
+        self._conn = httplib.HTTPConnection("nacl.cc",80)#"95.163.196.113",80) #fastjet.info
         self._aesKey = self._getAESkey()
         self._headers = {
             "User-Agent":"okhttp/3.9.1",
@@ -80,7 +80,7 @@ class lvYe:
     def checklogin(self):
         if not self._checkToken():
             return False
-        data = self._send("/api/v6/member/login?deviceId=%s"%DEVICE_ID)
+        data = self._send("/api/v9/member/login?deviceId=%s"%DEVICE_ID)
         rObj = json.loads(data)
         if(rObj['code']==500):
             return False
@@ -90,17 +90,17 @@ class lvYe:
         return True
     def adClick(self):
         """点击广告赚绿叶币"""
-        data = self._send("/api/v6/member/adClick?userId=%s"%self._userId)
+        data = self._send("/api/v9/member/adClick?userId=%s"%self._userId)
         obj = json.loads(data)
         print(obj)
     def checkIn(self):
         """签到"""
-        data = self._send("/api/v7/member/checkIn?userId=%s"%self._userId)
+        data = self._send("/api/v9/member/checkIn?userId=%s"%self._userId)
         obj = json.loads(data)
         print(obj)
     def buyLeafCoinProduct(self):
         """140绿叶币换1日黄金会员"""
-        data = self._send("/api/v6/shop/buyLeafCoinProduct?userId=%s&productId=3"%self._userId)
+        data = self._send("/api/v9/shop/buyLeafCoinProduct?userId=%s&productId=3"%self._userId)
         obj = json.loads(data)
         print(obj)
     def _send(self,uri):
