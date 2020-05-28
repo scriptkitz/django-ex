@@ -14,6 +14,7 @@ import hashlib
 import time
 import json
 import urllib.parse
+from lxml import etree
 
 from Crypto.Cipher import AES
 
@@ -269,4 +270,23 @@ def subscribe2(request):
             c = sv['md']+":"+sv['pd']+"@"+sv['ip']+":"+str(int(sv['pt']))
             conf = "ss://" + base64.standard_b64encode(c.encode('gbk')).decode('gbk') + "#" + urllib.parse.quote(sid+sv['lb'])
             contentstr.append(conf)
+    return HttpResponse(base64.standard_b64encode('\n'.join(contentstr).encode('gbk')).decode('gbk'))
+
+
+
+def subscribe3(request):
+    conn = httplib.HTTPSConnection("www.4spaces.org")
+    conn.connect()
+    headers = {'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6'  }
+    conn.request("GET","/free/",headers=headers)
+    resp = conn.getresponse()
+    data = resp.read()
+    conn.close()
+    contentstr = []
+    if data:
+        doc = etree.HTML(data)
+        allItem = doc.xpath('//code')
+        for item in allItem:
+            contentstr.append(item.text.strip())
+
     return HttpResponse(base64.standard_b64encode('\n'.join(contentstr).encode('gbk')).decode('gbk'))
